@@ -1,0 +1,34 @@
+package Aula09;
+
+public class Exercicio1 {
+
+	public static void main(String[] args) {
+		String nomeCompleto = "Liziane Adriane Buba";
+		String[] nomeArray = nomeCompleto.split(" ");
+		System.out.println("Nome completo: " + nomeCompleto + 
+						   "\nPrimeiro nome: " + nomeArray[0]);
+	}
+
+}
+
+
+
+ATIVIDADE 02
+
+package Aula08;
+
+public class Exercicio02String {
+	public static void main(String[] args) {
+		
+		String nomeCompleto = "Liziane Adriane Buba";
+		String nomeMaiusculo = nomeCompleto.toUpperCase();
+		String[] partesNome = nomeMaiusculo.split(" ");
+		String primeiroNome = partesNome[0];
+		
+		
+        System.out.println("Meu nome é: " + primeiroNome);
+        
+		
+	}
+
+}
